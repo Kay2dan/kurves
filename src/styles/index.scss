@@ -1,5 +1,18 @@
-@import "bulma/bulma";
+// https://bulma.io/documentation/customize/with-webpack/
+
+@charset "utf-8";
+
+// add fonts here
+
+// set brand colours
+$yellow: #ababab;
+
+// update bulma's global vars
+
+// update bulma component vars
 
 .layout {
   background-color: indianred;
 }
+
+@import "bulma/bulma";
