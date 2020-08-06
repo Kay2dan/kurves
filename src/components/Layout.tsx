@@ -2,7 +2,7 @@ import React, { ReactChild, ReactChildren } from 'react'
 import { Navbar } from "./index";
 
 interface LayoutPropsType {
-  children: ReactChild | ReactChildren
+  children: ReactChildren | ReactChild
 }
 
 export default (props: LayoutPropsType) => {

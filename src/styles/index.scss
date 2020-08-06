@@ -10,9 +10,8 @@ $yellow: #ababab;
 // update bulma's global vars
 
 // update bulma component vars
+$navbar-height: 5.5rem;
 
-.layout {
-  background-color: indianred;
-}
-
+@import "./hero.scss";
+@import "./features.scss";
 @import "bulma/bulma";
